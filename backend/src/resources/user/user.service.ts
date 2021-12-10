@@ -55,7 +55,7 @@ export default class UserService {
         const userData = {
             ...user,
             password: md5(user.password).toString(),
-            wallet: 0,
+            wallet: 1000,
             accountNumber: Math.floor(Math.random() * 999999),
             accountDigit: Math.floor(Math.random() * 99)
         }

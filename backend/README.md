@@ -20,10 +20,7 @@ Instalando o Postgress
 Windowns:
 
 Linux:
-
 Pegando o projeto base e instalando as dependências:
-
-
 # Com YARN:
 - Clone o templete de: [dio-inter-clone-backend](https://github.com/pablohdev/dio-inter-clone-backend/tree/template)
 - Abra o projeto no VS Code;
@@ -64,3 +61,6 @@ yarn add js-base64
   }
 }
 ```
+# Subir container
+
+docker-compose up
